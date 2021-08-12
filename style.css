@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+/* navbar section */
+.navbar {
+  background: linear-gradient(to right, #ffaaaa, #d46a6a, #801515);
+}
+.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-brand {
+  margin-left: 30px;
+  font-size: 30;
+  font-weight: 600;
+  color: #fff !important;
+}
+.navbar-nav {
+  font-size: 20;
+}
+.navbar-nav li {
+  padding: 0 10px;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 600;
+}
+/* background gradient section */
+section {
+  width: 100%;
+}
+#banner {
+  background: linear-gradient(to right, #ffaaaa, #d46a6a, #801515);
+  padding-top: 5%;
+  color: #fff;
+}
+.title {
+  margin-top: 100px;
+  font-weight: lighter;
+}
+.bottom-img {
+  width: 100%;
+}
+/* technology stack */
+#tech {
+  background: #ffeeee;
+}
+/* about me */
+#aboutme {
+  background: #ffeeee;
+}
+.border {
+  border: solid #fff;
+  border-left: 5px solid #801515 !important;
+}
+/* my project section */
+.project::before {
+  content: "";
+  background: #d46a6a;
+  width: 200px;
+  height: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(60px);
+}
+/* footer section */
+#footer {
+  background: linear-gradient(to right, #ffaaaa, #d46a6a, #801515);
+}
+/* footer button */
